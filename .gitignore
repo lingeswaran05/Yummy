@@ -1,6 +1,30 @@
-/target/
-*.db
-*.log
-.DS_Store
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor / OS
+.vscode/
 .idea/
-*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Maven / Java / Backend
+backend/target/
+target/
+*.db
+yummiee.db
+backend/yummiee.db
+*.log
